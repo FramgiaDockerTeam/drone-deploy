@@ -1,4 +1,10 @@
 deploy:
-  bash:
-    script:
-      - ./drone/deploy.sh
+  ssh:
+    image: euclid1990/drone-plugin
+    host: 108.61.186.82
+    user: root
+    port: 22
+    sleep: 5
+    commands:
+      - echo hello
+      - echo world
