@@ -7,4 +7,3 @@ deploy:
     sleep: 5
     commands:
       - echo hello
-      - echo world
