@@ -1,0 +1,4 @@
+deploy:
+  bash:
+    script:
+      - ./drone/deploy.sh
